@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+:root {
+    --cor1: #f3f36b;
+    --cor2: #1C1C1C;
+    --cor3: #fafaff;
+    --cor4: #00a7e1; /* não sei se vou utilizar */
+}
+
+header {
+    background-color: var(--cor1) ;
+    width: 16vh;
+    height: 100vh;
+
+    box-shadow: 2px 0px 9px #0000003a ;
+}
+header > nav {
+    width: 4em ;
+    
+    position: relative;
+    left: 0%;
+    top: 50%;
+
+    transform: translate(0%, -50%);
+}
+header > nav > a > img {
+    display: block;
+    width: 10vh;
+    padding: 2.9vh;
+}
+
+main {
+    display: inline-table;
+    width: 1000vh;
+
+    position: absolute;
+    top: 15vh;
+    left: 7.6em;
+}
+main > #line1 {
+    width: 900vw;
+}
+
+main > #line1 section {
+    display: inline-table;
+    width: 350px;
+    
+    height: 200px;
+    background-color: #f3f36b;
+
+    padding: 10px 25px 10px 25px;
+    margin-left: 20px;
+
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px #00000018;
+
+    font-size: 1em;
+}
