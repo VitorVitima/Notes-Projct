@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 * {
     margin: 0px;
     padding: 0px;
@@ -10,52 +8,51 @@
     --cor3: #fafaff;
     --cor4: #00a7e1; /* não sei se vou utilizar */
 }
-
-header { 
-    position: absolute;
-    background-color: var(--cor1) ;
-    width: 100px;
+header {
+    position:absolute;
+    background-color: var(--cor1);
+    width: 100px ;
     height: 100vh;
-
-    box-shadow: 2px 0px 9px #0000003a ;
 }
-header > nav {
-    width: 4em ;
-    
-    position: relative;
-    left: 0%;
-    top: 50%;
 
+header nav {
+    width: 99px;
+    margin-top: 50vh;
     transform: translate(0%, -50%);
+
+    margin-left: 2.244vh;
 }
-header > nav > a > img {
-    display: block;
-    width: 10vh;
-    padding: 2.9vh;
+
+header img {
+    width: 50%;
+    padding-top: 5vh ;
+    padding-bottom: 5vh ;
+
 }
 
 main {
-    display: inline-table;
-    width: 100vh;
-
-    position: absolute;
-    top: 15vh;
-    left: 7.6em;
+    width: 100px;
+    height: 100vh;
+   
 }
 main > #line1 {
-    width: 900vh;
-    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
 }
 
 main > #line1 section {
     display: inline-table;
-    width: 350px;
-    
+    width: 20.9vh;
     height: 200px;
+
     background-color: #f3f36b;
 
     padding: 10px 25px 10px 25px;
     margin-left: 20px;
+    margin-bottom: 5vh;
 
     border-radius: 15px;
     box-shadow: 5px 5px 5px #00000018;
