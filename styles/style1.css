@@ -8,27 +8,7 @@
     --cor3: #fafaff;
     --cor4: #00a7e1; /* não sei se vou utilizar */
 }
-header {
-    position:absolute;
-    background-color: var(--cor1);
-    width: 100px ;
-    height: 100vh;
-}
 
-header nav {
-    width: 99px;
-    margin-top: 50vh;
-    transform: translate(0%, -50%);
-
-    margin-left: 2.244vh;
-}
-
-header img {
-    width: 50%;
-    padding-top: 5vh ;
-    padding-bottom: 5vh ;
-
-}
 
 main {
     width: 100px;

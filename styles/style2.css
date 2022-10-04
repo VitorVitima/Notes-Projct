@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor1: #f3f36b;
+    --cor2: #1C1C1C;
+    --cor3: #fafaff;
+    --cor4: #00a7e1; /* não sei se vou utilizar */
+}
+
+header {
+    background-color: var(--cor1);
+    width: 80px;
+    height: 100vh;
+}
+header nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header > nav > div > a > img {
+    width: 50px;
+}
