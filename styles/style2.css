@@ -12,6 +12,9 @@
     --cor3: #fafaff;
     --cor4: #00a7e1; /* não sei se vou utilizar */
 }
+html {
+    height: 100vh;
+}
 
 header {
     background-color: var(--cor1);
@@ -19,10 +22,48 @@ header {
     height: 100vh;
 }
 header nav {
+    width: 80px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
+
     justify-content: center;
+    align-items: center;    
+}
+header > nav > div {
+    margin: 15px 0px;
 }
 header > nav > div > a > img {
     width: 50px;
+}
+
+/* Notes do site */
+
+main {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+main article#line1 {
+    width: 100vw;
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px 100px;
+}
+
+/* Configuração deral para as notes */
+
+main > article > section {
+    background-color: #f3f36b;
+    height: 300px;
+    width: 200px;
+    padding: 10px 20px;
+    margin: 0px 20px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px black;
 }
